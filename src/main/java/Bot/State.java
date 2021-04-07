@@ -103,6 +103,8 @@ public class State {
                 break;
             case "/cancel":
                 text = "Хорошо, не будем";
+                PostgreSQLJDBC.setState(chatID, 0);
+                break;
             default:
                 PostgreSQLJDBC.setState(chatID, 0);
                 text = "Я не понимаю";

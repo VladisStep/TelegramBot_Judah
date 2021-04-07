@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Weather {
 
     public static String getWether(String message) throws IOException {
-        URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q=" +message+"&units=metric&appid=token");
+        URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q=" +message+"&units=metric&appid=bcd2a82d42c9daeebb4943d7d593892f");
 
         String city = null;
         Double temp = null;
@@ -35,8 +35,8 @@ public class Weather {
             smain = (String)obj.get("main");
         }
 
-        return  "Город: " + city + "\n" +
+        return  "Город: " + Translator.translate("en", "ru",city) + "\n" +
                 "Температура: " + temp +"C \n" +
-                "Погода: " + smain;
+                "Погода: " + Translator.translate("en", "ru",smain);
     }
 }
