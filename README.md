@@ -10,7 +10,7 @@
 
 Каждый день бот присылает сообщение состоящие из текущей даты, задач, который пройдут в этот день, информацию о погоде и мудрую мысль.
 
-![alt text](screenshots/start_and_help.png)​
+![alt text](screenshots/message.png)​
 
 В настройках мы можем изменить наши имя,  город и нужно ли присылать каждое утро сообщения.
 
@@ -37,7 +37,7 @@ The bot is written in Java, PostgreSQL is used as a database, and Heroku is used
 
 Every day, the bot sends a message consisting of the current date, the tasks that will take place on that day, weather information and a wise quots.
 
-![alt text](screenshots/start_and_help.png)​
+![alt text](screenshots/message.png)​
 
 In the settings, we can change our name, city, and whether to send messages every morning.
 
